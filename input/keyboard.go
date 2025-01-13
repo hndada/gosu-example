@@ -7,6 +7,7 @@ import (
 )
 
 // type Keystrokes struct?
+// TODO: KeysPressed -> AreKeysPressed
 type KeyboardState struct {
 	Time        time.Duration // Stands for elapsed time.
 	KeysPressed []bool

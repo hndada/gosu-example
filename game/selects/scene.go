@@ -13,11 +13,12 @@ type Scene struct {
 	*game.Game
 	boxSprite draws.Sprite
 
-	searchBox          SearchBoxComponent
+	// searchBox          SearchBoxComponent
 	chartList          ChartListComponent
 	lastChart          *game.ChartRow
+	
+	// volume             *float64
 	background         game.BackgroundComponent
-	volume             *float64
 	previewMusicPlayer PreviewMusicPlayer
 
 	// chartInfo  ChartInfoComponent
